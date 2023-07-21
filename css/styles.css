@@ -127,3 +127,52 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Header and Nav */
+
+header {
+	height: 5.375rem;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px solid #c6c1c1;
+	background-color: white;
+	color: #4a4a4a;
+	font-family: Roboto, monospace, sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container h3 {
+	margin-left: 1.875rem;
+	font-size: 1.5rem;
+}
+
+.nav-container {
+	display: flex;
+	align-items: center;
+	margin-right: 1.875rem;
+}
+
+.nav-container li {
+	margin-left: 3.75rem;
+	list-style: none;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	line-height: 1.6;
+	font-size: 1.2rem;
+	color: #4a4a4a;
+}
+
+header .icon {
+	width: 1.35rem;
+	margin-left: 0.75rem;
+	position: relative;
+	top: 0.125rem;
+}
