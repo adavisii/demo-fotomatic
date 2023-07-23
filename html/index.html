@@ -13,50 +13,69 @@
   <title>Demo Fotomatic</title>
 </head>
 <body>
-  <header class="container">
+  <header class="desktop-nav mobile-nav">
     <h3>Fotomatic</h3>
     <nav>
-      <ul class="nav-container">
+      <ul class="desktop-nav-container">
         <li><a href="#">Product Details</a></li>
         <li><a href="#">About Us</a></li>
         <li>
-          <a href="https://www.instagram.com/" target="_blank">Follow Us <img class="icon" src="../images/instagram.png"
-              alt="" /></a>
+          <a href="https://www.instagram.com/" target="_blank">
+            Follow Us<img class="icon" src="../images/instagram.png" alt="" />
+          </a>
         </li>
-        <button id="btn-display">Join Us</button>
       </ul>
     </nav>
   </header>
-  <header class="mobile-container">
-    <nav>
-      <ul class="mobile-nav-container">
-        <li><a href=""><img class="mobile-icons" src="../images/ic-logo.svg" alt=""></a></li>
-        <li><a href=""><img class="mobile-icons" src="../images/ic-product-detail.svg" alt=""></a></li>
-        <li><a href=""><img class="mobile-icons" src="../images/ic-about-us.svg" alt=""></a></li>
-        <button id="mobile-btn-display">Join Us</button>
-      </ul>
-    </nav>
-  </header>
-
-  <div class="box-container">
-    <div class="box box-1">
-      <img src="../images/banner-landingpage.jpg" alt="">
-      <div class="instant-ff">Instant</div>
-      <h1>Format Camera</h1>
+  <div class="dt-flex-container">
+    <div class="dt-landing">
+      <div class="dt-lp-card-flx-cont">
+        <div class="lp-heading">
+          <h2>Instant</h2>
+          <h1>FORMAT CAMERA</h1>
+        </div>
+        <div class="lp-email">
+          <p>Email us to request a demo and be in our waiting list for <strong>February 2024</strong> release!</p>
+        </div>
+        <button class="dt-waitlist-btn">Join the waiting list</button>
+      </div>
     </div>
-    <div class="box box-2">
-      <div class="box" id="feature-1"></div>
-      <h2>Advanced, Automatic, Instant</h2>
-      <p>Shutter speed, apperture and flash output adjust automatically</p>
+    <div class="dt-features">
+      <div class="feature-style-1">
+        <div class="feature-prod">
+          <img src="../images/feature-1.png" alt="">
+          <h2>Advanced, automatic, instant</h2>
+          <p>Shutter speed, apperture and flash output adjust automatically</p>
+        </div>
+      </div>
+      <div class="feature-style-2">
+        <div class="feature-prod">
+          <img src="../images/feature-2.png" alt="">
+          <h2>Beautifully crafted inside-out</h2>
+          <p>From the paint outside to the tiny screw inside, Fotomat is crafted with love and 20-year of expertise</p>
+        </div>
+      </div>
     </div>
-    <div class="box box-3">
-      <div class="feature-2"><img src="../images/feature-2.png" alt=""></div>
-      <h2>Beautifully crafted inside-out</h2>
-      <p>From the paint outside to the tiny screw inside. Fotomatic is crafted with love and 20-years of expertise</p>
+    <div class="dt-filters">
+      <h2>Over +20 filters to choose from</h2>
+      <p>Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</p>
+      <div id="filter-img">
+        <img class="img-sizing" src="../images/filter-1.png" alt="">
+        <img class="img-sizing" src="../images/filter-2.png" alt="">
+        <img class="img-sizing" src="../images/filter-3.png" alt="">
+        <img class="img-sizing" src="../images/filter-4.png" alt="">
+      </div>
     </div>
-    <div class="box box-4"></div>
-    <div class="box box-5"></div>
-    <div class="box box-6"></div>
+    <div class="dt-testimonial">
+      <div class="testimonial-cont">
+        <cite>"It's truly something that can create a brand new photgraphy Renaissance"</cite>
+        <img src="../images/photography-logo.png" alt="">
+      </div>
+    </div>
+    <footer class="dt-footer">
+      <h6>&copy; 2023 Fotomatic All Rights Reserved</h6>
+      <h6>Designed In TX</h6>
+    </footer>
   </div>
 </body>
 </html>
